@@ -7,7 +7,6 @@ body{
    height: 300px;
 }
 h1{
-/*align-text:center;*/
 text-align: center;
 background:green;
 }
@@ -18,10 +17,21 @@ background:green;
     display:flex;
     content: fit;
     justify-content: space-between;
- /*   background-color: blue;*/
  flex-wrap: wrap;
 }
 caixa-aluno{
     width: fit-content;
     height:fit-content
+}
+
+#divbotao {
+    align-items: center;
+}
+
+#botao {
+    padding: 2%;
+}
+
+#botao2 {
+    padding: 2%;
 }
